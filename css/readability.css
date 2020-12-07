@@ -3,7 +3,7 @@
 body{font-size:10px;line-height:1;}
 #readability-logo,#arc90-logo,.footer-twitterLink,#readTools a,a.rdbTK-powered span{background-color:transparent!important;background-image:url(http://ejucovy.github.io/readability/images/sprite-readability.png)!important;background-repeat:no-repeat!important;}
 #readOverlay{text-rendering:optimizeLegibility;display:block;position:absolute;top:0;left:0;width:100%;}
-#readInner{max-width:800px;margin:1em auto;}
+#readInner{max-width:80%;margin:1em auto;}
 #readInner a{color:#039;text-decoration:none;}
 #readInner a:hover,#readInner a:focus{text-decoration:underline;}
 #readInner img{float:left;clear:both;margin:0 12px 12px 0;}
@@ -85,3 +85,4 @@ a.rdbTK-powered span{display:inline-block;height:22px;margin-left:2px;background
 #kindle-container,#email-container{position:fixed;top:60px;left:50%;width:500px;height:490px;border:solid 3px #666;background-color:#fff;z-index:100!important;overflow:hidden;margin:0 0 0 -240px;padding:0;}
 /* Override html styling attributes */
 table,tr,td{background-color:transparent!important;}
+img{max-width:100%}
