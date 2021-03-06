@@ -55,7 +55,7 @@ var readability = {
         trim:                  /^\s+|\s+$/g,
         normalize:             /\s{2,}/g,
         killBreaks:            /(<br\s*\/?>(\s|&nbsp;?)*){1,}/g,
-        videos:                /https?:\/\/(www\.)?(youtube|vimeo)\.com/i,
+        videos:                /https?:\/\/(www\.)?(youtube|vimeo|bilibili)\.com/i,
         skipFootnoteLink:      /^\s*(\[?[a-z0-9]{1,2}\]?|^|edit|citation needed)\s*$/i,
         nextLink:              /(next|weiter|continue|>([^\|]|$)|»([^\|]|$))/i, // Match: next, continue, >, >>, » but not >|, »| as those usually mean last.
         prevLink:              /(prev|earl|old|new|<|«)/i
