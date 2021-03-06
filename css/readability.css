@@ -86,4 +86,4 @@ a.rdbTK-powered span{display:inline-block;height:22px;margin-left:2px;background
 /* Override html styling attributes */
 table,tr,td{background-color:transparent!important;}
 img{max-width:100%}
-figcaption{text-align: center;}
+figcaption{text-align: center;color:gray;}
