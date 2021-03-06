@@ -6,7 +6,7 @@ body{font-size:10px;line-height:1;}
 #readInner{max-width:80%;margin:1em auto;}
 #readInner a{color:#039;text-decoration:none;}
 #readInner a:hover,#readInner a:focus{text-decoration:underline;}
-#readInner img{float:left;clear:both;margin:0 12px 12px 0;}
+#readInner img{display:block;clear:both;margin:0 auto;}
 #readInner img.blockImage{clear:both;float:none;display:block;margin-left:auto;margin-right:auto;}
 #readInner h1{display:block;width:100%;border-bottom:1px solid #333;font-size:1.2em;padding-bottom:.5em;margin-bottom:.75em;}
 #readInner sup{line-height:.8em;}
